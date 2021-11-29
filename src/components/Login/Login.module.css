@@ -1,0 +1,38 @@
+.form {
+    text-align: center;
+}
+
+.form input,
+.form label {
+    display: block;    
+    margin: auto;
+}
+
+
+.form label {
+    font-weight: bold;
+}
+
+.form input {
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    width: 25rem;
+    padding: 0.5rem;
+    border: 0.5px solid #ccc;
+}
+
+.form button {
+    width: 5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+.invalid input{
+    border: 1px solid rgb(236, 62, 62);
+    background-color: rgb(243, 191, 186);
+}

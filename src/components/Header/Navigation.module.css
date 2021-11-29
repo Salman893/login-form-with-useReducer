@@ -1,0 +1,27 @@
+.header {
+    width: 97%;
+    max-width: 100%;
+    padding: 1rem;
+    background-color: #741188;
+    color: white;
+}
+
+.header nav, ul {
+    margin: 0;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+}
+
+.header li {
+    margin: 0 1rem;
+    font-size: 1.1rem;
+}
